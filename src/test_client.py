@@ -80,7 +80,7 @@ class CustomJupyterKernelClient(KernelClient):
 Test = CustomJupyterKernelClient()
 msg_id = Test.compute_option_pricing("2+2")
 io_msg = Test.get_iopub_msg(msg_id)
-print(io_msg)
+
 
     
     
